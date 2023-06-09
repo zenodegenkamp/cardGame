@@ -1,0 +1,90 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('img/monster.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+h1 {
+    text-shadow: 3px 3px 2px rgb(112, 3, 3);
+    font-family: 'Creepster', cursive;
+    font-size: 3rem;
+    margin: 0.2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Remaining cards section */
+#healthbar {
+    margin: 0.2em auto;
+    background: rgb(112, 3, 3);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.1em;
+}
+
+#healthbar p {
+    font-family: 'Creepster', cursive;
+}
+
+#cards,
+#healthbar {
+    display: none;
+}
+
+
+/* Cards section */
+#card1,
+#card2 {
+    width: 150px;
+    height: 210px;
+    border: 2px solid rgb(112, 3, 3);
+    margin: 0.5em auto;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#card1 img,
+#card2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* BTN section */
+button {
+    font-weight: bolder;
+    font-size: 4em;
+    cursor: pointer;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    color: whitesmoke;
+    margin: auto;
+    text-shadow: 3px 3px 2px rgb(112, 3, 3);
+    font-family: 'Creepster', cursive;
+}
+
+#button-section {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+#draw-cards,
+#restart-game {
+    display: none;
+}
